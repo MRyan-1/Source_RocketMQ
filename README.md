@@ -1,4 +1,10 @@
-## Apache RocketMQ 
+## 如何搭建RocketMQ源码阅读环境
+
+见本文
+[RocketMQ源码搭建阅读环境](https://effective-java.gitee.io/codewars/#/_sidebar)
+
+## Apache RocketMQ
+
 [![Build Status](https://travis-ci.org/apache/rocketmq.svg?branch=master)](https://travis-ci.org/apache/rocketmq) [![Coverage Status](https://coveralls.io/repos/github/apache/rocketmq/badge.svg?branch=master)](https://coveralls.io/github/apache/rocketmq?branch=master)
 [![CodeCov](https://codecov.io/gh/apache/rocketmq/branch/master/graph/badge.svg)](https://codecov.io/gh/apache/rocketmq)
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/org.apache.rocketmq/rocketmq-all/badge.svg)](http://search.maven.org/#search%7Cga%7C1%7Corg.apache.rocketmq)
@@ -8,13 +14,15 @@
 [![Percentage of issues still open](http://isitmaintained.com/badge/open/apache/rocketmq.svg)](http://isitmaintained.com/project/apache/rocketmq "Percentage of issues still open")
 [![Twitter Follow](https://img.shields.io/twitter/follow/ApacheRocketMQ?style=social)](https://twitter.com/intent/follow?screen_name=ApacheRocketMQ)
 
-**[Apache RocketMQ](https://rocketmq.apache.org) is a distributed messaging and streaming platform with low latency, high performance and reliability, trillion-level capacity and flexible scalability.**
+**[Apache RocketMQ](https://rocketmq.apache.org) is a distributed messaging and streaming platform with low latency,
+high performance and reliability, trillion-level capacity and flexible scalability.**
 
 It offers a variety of features:
 
 * Messaging patterns including publish/subscribe, request/reply and streaming
 * Financial grade transactional message
-* Built-in fault tolerance and high availability configuration options base on [DLedger](https://github.com/openmessaging/openmessaging-storage-dledger)
+* Built-in fault tolerance and high availability configuration options base
+  on [DLedger](https://github.com/openmessaging/openmessaging-storage-dledger)
 * A variety of cross language clients, such as Java, C/C++, Python, Go
 * Pluggable transport protocols, such as TCP, SSL, AIO
 * Built-in message tracing capability, also support opentracing
@@ -35,6 +43,7 @@ It offers a variety of features:
 ----------
 
 ## Learn it & Contact us
+
 * Mailing Lists: <https://rocketmq.apache.org/about/contact/>
 * Home: <https://rocketmq.apache.org>
 * Docs: <https://rocketmq.apache.org/docs/quick-start/>
@@ -42,39 +51,45 @@ It offers a variety of features:
 * Rips: <https://github.com/apache/rocketmq/wiki/RocketMQ-Improvement-Proposal>
 * Ask: <https://stackoverflow.com/questions/tagged/rocketmq>
 * Slack: <https://rocketmq-invite-automation.herokuapp.com/>
- 
 
 ----------
 
 ## Apache RocketMQ Community
+
 * [RocketMQ Community Projects](https://github.com/apache/rocketmq-externals)
+
 ----------
 
 ## Contributing
-We always welcome new contributions, whether for trivial cleanups, [big new features](https://github.com/apache/rocketmq/wiki/RocketMQ-Improvement-Proposal) or other material rewards, more details see [here](http://rocketmq.apache.org/docs/how-to-contribute/).
+
+We always welcome new contributions, whether for trivial
+cleanups, [big new features](https://github.com/apache/rocketmq/wiki/RocketMQ-Improvement-Proposal) or other material
+rewards, more details see [here](http://rocketmq.apache.org/docs/how-to-contribute/).
  
 ----------
+
 ## License
+
 [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) Copyright (C) Apache Software Foundation
 
 
 ----------
+
 ## Export Control Notice
-This distribution includes cryptographic software. The country in which you currently reside may have
-restrictions on the import, possession, use, and/or re-export to another country, of encryption software.
-BEFORE using any encryption software, please check your country's laws, regulations and policies concerning
-the import, possession, or use, and re-export of encryption software, to see if this is permitted. See
+
+This distribution includes cryptographic software. The country in which you currently reside may have restrictions on
+the import, possession, use, and/or re-export to another country, of encryption software. BEFORE using any encryption
+software, please check your country's laws, regulations and policies concerning the import, possession, or use, and
+re-export of encryption software, to see if this is permitted. See
 <http://www.wassenaar.org/> for more information.
 
-The U.S. Government Department of Commerce, Bureau of Industry and Security (BIS), has classified this
-software as Export Commodity Control Number (ECCN) 5D002.C.1, which includes information security software
-using or performing cryptographic functions with asymmetric algorithms. The form and manner of this Apache
-Software Foundation distribution makes it eligible for export under the License Exception ENC Technology
-Software Unrestricted (TSU) exception (see the BIS Export Administration Regulations, Section 740.13) for
-both object code and source code.
+The U.S. Government Department of Commerce, Bureau of Industry and Security (BIS), has classified this software as
+Export Commodity Control Number (ECCN) 5D002.C.1, which includes information security software using or performing
+cryptographic functions with asymmetric algorithms. The form and manner of this Apache Software Foundation distribution
+makes it eligible for export under the License Exception ENC Technology Software Unrestricted (TSU) exception (see the
+BIS Export Administration Regulations, Section 740.13) for both object code and source code.
 
 The following provides more details on the included cryptographic software:
 
-This software uses Apache Commons Crypto (https://commons.apache.org/proper/commons-crypto/) to
-support authentication, and encryption and decryption of data sent across the network between
-services.
+This software uses Apache Commons Crypto (https://commons.apache.org/proper/commons-crypto/) to support authentication,
+and encryption and decryption of data sent across the network between services.
