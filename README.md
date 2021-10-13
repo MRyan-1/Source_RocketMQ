@@ -1,7 +1,7 @@
 ## 如何搭建RocketMQ源码阅读环境
 
 见本文
-[RocketMQ源码搭建阅读环境](https://effective-java.gitee.io/codewars/#/_sidebar)
+[RocketMQ源码搭建阅读环境](https://effective-java.gitee.io/codewars/#/blog/backend_developer/MessageDiddleware/RocketMQSourceSpace)
 
 ## Apache RocketMQ
 
